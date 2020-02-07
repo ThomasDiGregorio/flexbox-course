@@ -5,13 +5,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
+    <title>Error Page</title>
+      
+    <style>
+        body {
+            background-color: cornflowerblue;
+            font-family: 'Merriweather', serif;
+        }
+
+        .error_wrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+
+        h1 {
+            color: red;
+            font-size: 90px;
+        }
+
+        h2 {
+            margin-bottom: 100px;
+        }
+
+        img {
+            width: 50%;
+        }
+    </style>
 </head>
 
 <body>
-    <h1>Hi Flexbox</h1>
-
-    <p>Some content</p>
+    <div class="error_wrapper">
+            <h1>Error 404</h1>
+            <h2> Uh-oh that page doesen't exist! Would you like to go home?</h2>
+        <img src="tbot.png" alt="">
+    </div>
 </body>
 
 </html>
